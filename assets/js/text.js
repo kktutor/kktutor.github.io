@@ -3,8 +3,8 @@ if (!!window.ActiveXObject || "ActiveXObject" in window) { //is IE?
 }
 let divTyping = document.getElementById('xf_type')
 let i = 0,
-    timer = 0,
-    str = '此页面由原生HTML，CSS，JS开发! 本站UI由小枫原创，并且源图和代码全部开源供大家学习使用(严禁商用)。' 
+    timer = 0,    
+	str = '<h4>\xa0\xa0\xa0\xa0\xa0\xa0\xa0&#128151"功法目录"&#128151</h4><br/>1.战神引擎零基础视频教程.<br/>2.雷霆传奇视频教程.<br/>3.传奇地图由浅入深制作视频教程.<br/>4.UE4系列各个板块教程.<br/>5.游戏破解系列......<br/>\xa0\xa0&#128525&#128525&#128525↓↓↓更多点击↓↓↓&#128525&#128525&#128525' 
 function typing() {
     if (i <= str.length) {
         divTyping.innerHTML = str.slice(0, i++) + '_'
@@ -40,7 +40,7 @@ var binft = function (r) {
             setTimeout(i, d)
     }
     var l = "",
-        o = ["大道至简,开发由我","饿了么,一起来学习吧",].map(function (r) {
+        o = ["大道三千,我有我缘","经书万卷,不如一起来看",].map(function (r) {
             return r + "."
         }),
         a = 2,
