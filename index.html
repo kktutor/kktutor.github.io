@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- 设置标题 -->   
+	<title>===功法阁===</title>
+<!-- 标题图标设置 -->
+	<link rel="icon" href="Icon/KK2.png" type="image/x-icon">  <!-- 在网页标题左侧显示图标 -->
+    <link rel="shortcut icon" href="Icon/KK2.png" type="image/x-icon">  <!-- 在收藏夹显示图标 -->
+<!-- 网页设置调用 -->
+    <link rel="stylesheet" href="./assets/css/font.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <script src="./assets/js/jQuery3.5.1.js"></script>
+</head>
+
+
+
+<body>
+<!-- 头部 -->
+    <header class="core hd">
+        <!-- 时间 -->
+        <h1 class="time_econd"></span></h1>
+        <h3><span class="time_moon"></span>&nbsp;&nbsp;<span id="clock"></span>&#128151;</h3>
+        <!-- 搜索栏 -->
+        <div class="xf_baidu xf_style">
+            <form action="http://www.baidu.com/baidu" target="_blank">
+                <input type="text" name="word" size="30" autocomplete="off" placeholder="百度一下">
+                <input type="submit">
+            </form>
+        </div>
+    </header>
+<!-- 主体 -->
+    <section class="core main xf_style">
+        <!-- 头像 -->
+        <div class="tx">       
+            <img src="./assets/images/KK.png" alt="你想做什么" title="你你你~你要做什么">
+        </div>
+        <!-- 姓名 个签 -->
+        <div class="xf_name">
+            <h2>大掌柜</h2>
+            <h4 id="xf_txt"></h4>
+        </div>
+        <!-- 图标 （img里面的是透明图是用来转换超链接） -->
+        <div class="xf_ico_link">
+            <ul>
+                <li><a href="./web/cq.html" target="_blank" rel="noopener noreferrer"><img src="./assets/images/transparent.png"
+                            alt="抖音" title="传奇"></a></li>
+                <li><a href="https://jq.qq.com/?_wv=1027&k=YI5fWxi5" target="_blank" rel="noopener noreferrer"><img src="./assets/images/transparent.png"
+                            alt="QQ" title="QQ"></a></li>
+                <li><a href="#" target="_blank" rel="noopener noreferrer"><img src="./assets/images/transparent.png"
+                            alt="邮箱" title="邮箱"></a></li>
+                <li><a href="https://www.bilibili.com/video/BV1h64y1B7dA/?share_source=copy_web&vd_source=e645a4f8904d875055965de90356a552" target="_blank" rel="noopener noreferrer"><img src="./assets/images/transparent.png"
+                            alt="bilibili" title="bilibili"></a></li>
+            </ul>
+        </div>
+        <!-- 介绍 -->
+        <div class="xf_introduce">
+            <p id="xf_type"></p>
+        </div>
+        <!-- 滑动效果 -->
+        <p class="xf_slide">&#xeb6d;</p>
+        <div class="xf_website">
+            <a href="http://starxn.com" target="_blank" rel="noopener noreferrer">星辰云</a>
+            <a href="http://baidu.com" target="_blank" rel="noopener noreferrer">百度01</a>
+            <a href="http://baidu.com" target="_blank" rel="noopener noreferrer">百度02</a>
+            <a href="http://baidu.com" target="_blank" rel="noopener noreferrer">百度03</a>
+        </div>
+    </section>
+<!-- 底部 -->
+    <footer class="core copy">
+        <p>Copyright © 2023 <a href="https://kktutor.github.io/" target="_blank" rel="noopener noreferrer">功法阁-门口接待</a>""</p>
+    </footer>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".xf_slide").click(function () {
+                $(".xf_website").slideToggle("slow");
+            })
+        })
+    </script>
+    <script src="./assets/js/time.js"></script>
+    <script src="./assets/js/text.js"></script>
+    <script src="./assets/js/fireworks.js"></script>
+</body>
+
+</html>
