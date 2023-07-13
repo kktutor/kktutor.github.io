@@ -1,1 +1,1 @@
-var posts=["2023/07/12/战神引擎/","2023/07/12/hello-world2/","2023/07/12/hello-world/","2023/07/12/战神引擎2/"];function toRandomPost(){pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);};
+var posts=["posts/4a17b156.html","posts/4a17b156.html","posts/240dd155.html","posts/240dd155.html","posts/19b7504a.html"];function toRandomPost(){pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);};
