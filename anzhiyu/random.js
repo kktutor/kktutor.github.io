@@ -1,1 +1,1 @@
-var posts=["posts/4a17b156.html","posts/4a17b156.html","posts/240dd155.html","posts/240dd155.html","posts/19b7504a.html"];function toRandomPost(){pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);};
+var posts=["posts/6326dd62.html","posts/54a3bab5.html","posts/4a17b156.html","posts/240dd155.html","posts/240dd155.html","posts/19b7504a.html"];function toRandomPost(){pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);};
