@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>GOM单机架设步骤</title>
+      <link href="/posts/a6abf103.html"/>
+      <url>/posts/a6abf103.html</url>
+      
+        <content type="html"><![CDATA[<h4 id=""><a href="#" class="headerlink" title=""></a>GOM单机架设步骤</h4><p>👋👋👋👋👋👋👋👋👋<br><img src="https://s2.loli.net/2023/08/16/5sh7gepmFjruTRa.png" alt="cq.png"><br> 操作步骤:</p><p>1.解压热血传奇16周年客户端,只能是这个版本,其他的有各种问题</p><p>2.解压  补丁  压缩包内文件夹到  热血传奇 目录(有data文件夹)位置.</p><p>3.将 ESP PG GK 三套解压,</p><p>​        然后选择一个版本,这里选择ESP版本,</p><p>​        然后解压到D:\ (有Mirserver文件夹同级目录下文件所有文件)</p><p>4.安装  DBC2000通用文件默认位置即可</p><p>5.打开版本文件夹 Mirserver  然后搜索 exe  将搜索的所有文件删除</p><p>6.如果文件夹 Mirserver内有一个  单机登录器压缩包,直接删除</p><p>7.解压  老GOM1108引擎包   运行  开始更新程序.bat 文件</p><p>8.领取注册充值卡.  地址    <a href="http://zmdlq.com/faka/">http://zmdlq.com/faka/</a>  复制保存好,不要刷新页面</p><p>9.解压 战盟定制版配置器(5.1)   </p><p>​        打开  战盟gom定制版[V5.1].exe</p><p>​        点击   注册/信息  将领取的注册码  填写到对应位置  点击注册</p><p>10.将文件 战盟gom定制版[V5.1].exe  和  UI-pak补丁等调整工具.exe复制到</p><p>​        D:\Mirserver\登录器    目录下</p><p>11.修改  D:\Mirserver\登录器   的文件:</p><p>​        map.txt        pak.txt          wav.txt            wil.txt           wzl.txt将其内容中的\11111前面的地址     </p><p>​        替换为  D:\热血传奇  (也就是解压的补丁  文件夹11111  所在的目录下,让整体地址能对应自己的文件)   </p><p>12.将D:\Mirserver\登录器    NewopUI.Pak文件复制到 D:\热血传奇\data下</p><p>13.运行 D:\Mirserver\登录器  下  UI-pak补丁等调整工具.exe </p><p>​        点击 Wil Wzl Pak读取规则按钮  点击 Pak 查看是否密码错误或未知</p><p>14.打开战盟定制版配置器(5.1)文件夹下 key文件\key2  复制 Key.Lic到<br>     D:\Mirserver\登录器 下 </p><p>​        然后 粘贴 删除 粘贴(重点操作)</p><p>​        接着 到 D:\Mirserver\Mir200目录下</p><p>​        粘贴 删除 粘贴(重点操作)</p><p>15.复制  D:\Mirserver\Mir200  目录下 map文件夹  到</p><p>​        D:\热血传奇  目录下 粘贴 替换</p><p>16.打开 <a href="http://www.yy111.cn/lb/">http://www.yy111.cn/lb/</a> 上传 列表.txt  并复制链接地址.</p><p>17.到 D:\Mirserver\登录器目录下 运行  战盟gom定制版[V5.1].exe 将上面获得的链接地址</p><p>​        粘贴到 主列表和备列表</p><p>​        快捷方式:背景图片:根据自己需要修改</p><p>​        点击  搜索客户端条件    检测目录下必须有  Data  Map  Wav没有就自己添加  不要勾选 微端模式和指定客户端名   配置/生成 页面下 不要勾选 主列表防劫持  备用列表防劫持  保存配置  生成登录器</p><p>18.复制生成的登录器到D:\热血传奇</p><p>19.打开 D:\Mirserver  下GameOfMir引擎控制器.exe 在配置向导下  取消<br>    动态IP模式  下一步  服务端口更改为7030  防止与酷狗端口冲突然后在  开启网关数量  改为1个    一直下一步保存</p><p>20.清理数据</p><p>​       在M2  系统设置下  取消勾选  禁止权限10的人物….   ESP单机调试插件下  取消勾选  禁止10的人物….</p><p>21.运行   无极数据库 点击数据库连接切换   根据自己状况选择  我们用的是Accesss  </p><p>联系:<a href="https://kktutor.gitee.io">https://kktutor.gitee.io</a>  QQ群:216053555</p><p>相关文件下载地址:<br>链接: <a href="https://pan.baidu.com/s/1jNsToyvSM2oShoyd3NK4Dw?pwd=">https://pan.baidu.com/s/1jNsToyvSM2oShoyd3NK4Dw?pwd=</a>   <font color=#FFFFFF>  4wi6</font></p><h4 id="完整教程请联系"><a href="#完整教程请联系" class="headerlink" title="  完整教程请联系:"></a><font color=#FF0000>  完整教程请联系:</font></h4><p><img src="\img\KK-Tutor-1群聊二维码.png" alt="联系群主或管理"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 传奇类 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> GOM架设 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>干净传奇客户端1.76版本</title>
       <link href="/posts/54a57e19.html"/>
       <url>/posts/54a57e19.html</url>
